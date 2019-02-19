@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { FusionChartsModule } from 'angular-fusioncharts';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    FusionChartsModule,
     RouterModule.forChild([
       {
         path: '',
